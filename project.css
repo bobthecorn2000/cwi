@@ -26,3 +26,6 @@ li a:hover {
 body {
     background-color: #1c1c1c;
 }
+.logo {
+    align-self: flex-start;
+}
