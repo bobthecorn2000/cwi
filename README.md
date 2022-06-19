@@ -1,1 +1,3 @@
-# cwi
+---
+permalink: /404.html
+---
