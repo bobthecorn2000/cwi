@@ -6,12 +6,28 @@
 </head> 
 <body>
     <ul>
+        <div class="topnav" id="myTopnav">
   <img class="logo" src="photos/banner.png">
   <li><a href="https://projects.bobthecorn.net/hub">Projects Hub</a></li>
 <li><a href="https://www.bobthecorn.net/mods">Mods</a></li>
         <li><a href="https://www.bobthecorn.net/">Home</a></li>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
   </ul>
   <h1 style="text-align: center" > nothing here yet </h1>
     <h1 style="text-align: center" > this page will be used as a home base for any school projects I make </h1>
     <h2 style="text-align: center" > <img class="mason" src="photos/404.jpg" style="width:400px"> </h2>
 </body>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
