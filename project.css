@@ -39,7 +39,7 @@ h2 {
 }
 
 .topnav a {
-  float: right;
+  float: left;
   display: block;
   color: #000;
   text-align: center;
@@ -82,4 +82,8 @@ h2 {
     display: block;
     text-align: left;
   }
+}
+
+.toplinks {
+ float: right;   
 }
