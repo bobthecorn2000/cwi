@@ -106,7 +106,7 @@ background-color: #101010;
 /* image stuffs*/ 
 
 .responsive {
-  width: 100%;
-  max-width: 400px;
+  width: auto;
+  
   height: auto;
 }
