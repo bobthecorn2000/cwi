@@ -87,3 +87,17 @@ h2 {
 .toplinks {
  float: left;   
 }
+
+/* cool box design things*/ 
+
+.flex-container1 {
+  display: flex;
+}
+.flex-container1 > div {
+  background-color: #1d1d1d;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
