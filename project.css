@@ -102,3 +102,11 @@ background-color: #101010;
 .boxtitle { grid-area: 1 / 1 / 2 / 6; }
 .boximage { grid-area: 2 / 1 / 4 / 3; }
 .boxtext { grid-area: 2 / 3 / 6 / 6; } 
+
+/* image stuffs*/ 
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
