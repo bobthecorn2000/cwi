@@ -143,6 +143,7 @@ background-color: #101010;
   transition: 0.5s;
 }
 
+/* FIX THIS */
 .hoverbutton:hover span {
   padding-right: 25px;
 }
