@@ -90,12 +90,15 @@ h2 {
 
 /* cool box design things*/ 
 
-.flex-container1 {
-  display: flex;
-    background-color: #101010;
+.box1 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+background-color: #101010;
 }
-.flex-container1 > div {
-  background-color: #1d1d1d;
-text-align: center;
-  
-}
+
+.boxtitle { grid-area: 1 / 1 / 2 / 6; }
+.boximage { grid-area: 2 / 1 / 4 / 3; }
+.boxtext { grid-area: 2 / 3 / 6 / 6; } 
