@@ -90,7 +90,7 @@ h2 {
 
 /* cool box design things*/ 
 
-.box1 {
+/*.box1 {
 display: grid;
 grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(5, 1fr);
@@ -102,7 +102,7 @@ background-color: #101010;
 .boxtitle { grid-area: 1 / 1 / 2 / 6; }
 .boximage { grid-area: 2 / 1 / 4 / 3; }
 .boxtext { grid-area: 2 / 3 / 6 / 6; } 
-
+*/
 /* image stuffs*/ 
 
 .responsive {
