@@ -92,6 +92,7 @@ h2 {
 
 .flex-container1 {
   display: flex;
+    background-color: #101010;
 }
 .flex-container1 > div {
   background-color: #1d1d1d;
