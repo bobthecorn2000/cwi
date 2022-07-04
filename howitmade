@@ -1,0 +1,38 @@
+ <head>
+  <link rel="stylesheet" href="project.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title> About </title>
+</head> 
+<body>
+    
+        <div class="topnav" id="myTopnav">
+  <img class="logo" src="photos/banner.png" alt="Fox Logo">
+            <a class="toplinks" href="https://projects.bobthecorn.net/hub">Projects Hub</a>
+            <a class="toplinks" href="https://www.bobthecorn.net/mods">Mods</a>
+            <a class="toplinks" href="https://www.bobthecorn.net/">Home</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+    <a class=hoverbutton href="https://projects.bobthecorn.net/hub">Back</a>
+     <div class="box1">
+  <div class="boxtitle"><h1 style="text-align: center">About the author</h1></div>
+  <!-- <div class="boximage"><img src="photos/placeholder1.png" style="width: 400px"></div> -->
+  <div class="boxtext"><p style="color:white; text-align: center;"> Hey I'm Tyler. This is my first year in collage. I'm majoring in software development. I graduated highschool early and love programming and computers. </p></div>
+</div> 
+ <h2 style="text-align: center" > <img class="mason" src="photos/placeholder1.png" style="width:200px" alt="papaya with spoon"> </h2> 
+    <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+    
+</body>
+        
