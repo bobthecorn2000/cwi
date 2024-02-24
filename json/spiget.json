@@ -23,6 +23,11 @@
 		"name": "Hamburger",
 		"description": "Best in town.",
 		"price": "$14.00"
+	},
+    {
+		"name": "not a hamburger",
+		"description": "worst in town.",
+		"price": "all of it"
 	}
 	
 ]
