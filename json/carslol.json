@@ -1,5 +1,5 @@
 [
-	[
+	
 		{
 			"name": "Toyota Camry",
 			"price": "$15,000",
@@ -72,7 +72,7 @@
 			"condition": "excellent",
 			"image_url": "https://projects.bobthecorn.net/json/finalproject2024/audia4.png"
 		}
-	]
+	
 	
 	
 ]
